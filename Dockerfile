@@ -1,5 +1,5 @@
 #pull base image
-FROM openjdk:8-jdk-alpine
+FROM dockerfile/java:oracle-java7
 
 #maintainer 
 MAINTAINER dstar55@yahoo.com
