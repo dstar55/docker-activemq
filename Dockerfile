@@ -1,11 +1,12 @@
 #pull base image
-FROM openjdk:8-jdk-alpine
+#FROM openjdk:8-jdk-alpine
+FROM parrotstream/ubuntu-java
 
 #maintainer 
 MAINTAINER dstar55@yahoo.com
 
 # make sure the package repository is up to date
-#RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
+RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
 RUN apt-get update
 RUN apt-get upgrade -y
 
