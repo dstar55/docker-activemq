@@ -14,7 +14,7 @@ RUN apt-get upgrade -y
 EXPOSE 61612 61613 61616 8161
 
 # download the activemq gzip file to the Linux machine
-RUN wget http://ftp.carnet.hr/misc/apache/activemq/5.11.1/apache-activemq-5.15.13-bin.tar.gz
+RUN wget http://ftp.carnet.hr/misc/apache/activemq/5.15.13/apache-activemq-5.15.13-bin.tar.gz
 
 # extract the files from the gzip file 
 RUN tar zxvf apache-activemq-5.15.13-bin.tar.gz
