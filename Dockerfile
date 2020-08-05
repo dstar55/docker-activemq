@@ -1,11 +1,11 @@
 #pull base image
-FROM dockerfile/java:oracle-java7
+FROM openjdk:8-jdk-alpine
 
 #maintainer 
 MAINTAINER dstar55@yahoo.com
 
 # make sure the package repository is up to date
-RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
+#RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
 RUN apt-get update
 RUN apt-get upgrade -y
 
