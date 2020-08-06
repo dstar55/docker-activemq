@@ -1,4 +1,4 @@
-This is image containing ***activemq 5.11.1***. Image is based on ***dockerfile/java:oracle-java7***
+This is image containing ***activemq 5.15.13***. 
 
 Usage:   
 
