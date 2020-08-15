@@ -1,4 +1,4 @@
-This is image containing ***activemq 5.15.13***. 
+Run ***activemq 5.15.13***, via Docker.
 
 Usage:   
 
